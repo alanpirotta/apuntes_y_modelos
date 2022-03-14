@@ -115,3 +115,34 @@ Chequeo de duplicados en index. (aplica para columnas que no sean índice)
 - Para contar ocurrencias de cada valor en un np.array, como un diccionario:
     unique, counts = np.unique(array, return_counts=True)
     dict(zip(unique, counts))
+
+- df.isnull().sum().any() : Forma alternativa de ver rápido si existen valores nulos. Se complementa con df.isna().sum().value_counts() si se quiere ver cuantos
+- display(): Reemplazo del print, que muestra los DataFrame correctamente. 
+- df.memory_usage() : Devuelve el uso de memoria de cada columna del DF en Bytes.
+- np.finfo(): Los límites de la máquina para cada floating point type.
+
+Ejemplo de como reducir el uso de memoria optimizando dtypes para floats:
+
+`display(f'Initial memory usage: {df.memory_usage().sum()/1024**2:.2f}')`
+
+```python
+def reduce_memory_usage(df):
+    start_mem = df.memory_usage().sum()/1024**2
+    datatypes = ['float16', 'float32', 'float64']
+
+    for col in df.columns[:-1]:     #Si se quiere eliminar la última columna (gralmente el target)
+        for dtp in datatypes:
+            if abs(df[col]).max() <= np.finfo(dtp).max:
+                df[col] = df[col].astype(dtp)
+                break
+
+    end_mem = df.memory_usage().sum()/1024**2
+    reduction = (start_mem - end_mem)*100/start_mem
+    print(f'Mem. usage decreased by {reduction:.2f}% to {end_mem:.2f}')
+    return df
+
+df = reduce_memory_usage(train)
+```
+- Cardinality: Número de valores únicos en las features. Por ej: Si tiene muy pocos valores, quizás considerar a esa feature categórica tenga mejores resultados.
+- df.nunique(): Cuenta la cantidad de valores unicos en el eje específicado (axis=0 columnas)
+- df.T.style.background_gradient(cmap='RdYlGn', subset=[]).bar(subset=[]), color='tomato'): Sirve para colorear las celdas según el cmap por los valores. el .bar es para hacer una barra con el color, y el subset es para marcar en qué features se hará.

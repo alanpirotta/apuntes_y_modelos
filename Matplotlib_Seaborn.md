@@ -41,3 +41,8 @@ Matplotlib(plt): Sirve para definir las características del gráfico (no el con
     ```python 
     plt.annotate('Possible outlier', xy=(46,0.030), xytext=(189,0.0070), fontsize=12, arrowprops=dict(arrowstyle='->', ec='grey', lw=2), bbox = dict(boxstyle="round", fc="0.8"))
     ```
+
+- Eliminar el título del eje X:
+    fig, ax = plt.subplots()
+    ax.set(xlabel=None)
+- sns.despine() : Elimina los bordes del gráfico que no tienen ticks.
