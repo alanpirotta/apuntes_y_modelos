@@ -25,23 +25,13 @@
 
 ### R1D67
 
-- variable = [i**2 for i in range(10)]: ejemplo de forma de escribir un loop en una línea (list comprehension)
 - Formas de hacer una regrasión lineal:
     - slope, intercept, r_value, p_value, stderr = linregress(x=, y=) : Desempaqueta (unpack) los resultados de la regresión en las diferentes variables.
     - reg = linregress(x=, y=): Guarda los datos en una sola variable, se pueden acceder por ejemplo con reg.slope.
 - plt.plot(x, reg.intercept + reg.slope*x, 'r', label='fitted'): Para graficar la regresión (se puede hacer en la misma figura que un scatter), utilizando la fórmula en el eje Y. el 'r' indica color rojo. 
 
-
-### R1D73
-
-- max(lista_de_respuestas, key= condicion_generadora_de_respuesta): Sirve para averiguar el índice que tiene el máximo de un diccionario (poniendo por ej: key= lambda k: dict[k] o key= dict.get) o el máximo de ocurrencias en una lista (con key=lista.count)). 
-
 ### R1D74
 
-- !wget: Trae datos desde un servidor en la web, sin descargar el archivo. Ej: !wget https://cdn.freecodecamp.org/project-data/cats-and-dogs/cats_and_dogs.zip
-- !unzip: Descomprime un archivo. SE puede descomprimir el archivo traído con !wget
-- os.path.join(path1, path2): Une dos path, poniendo un / en el medio. Sirve para acceder a una carpeta dentro de una carpeta
-- for root, directory, files in os.walk(train_dir): recorre un path y todos los subdirectorios dentro, devolviendo la carpeta root, los directorios dentro (en primer nivel) y los nombre de archivos,
 - image_generator = ImageDataGenerator(rescale=1./255): Generador de imágenes que permite hacer image augmentation, con algunos atributos (rescale sirve para que todas las imágenes tenga el mismo tamaño). Tiene el método flow_from_directory, por ejemplo
 - Para hacer la modificación de las imágenes y poder dejarlas aptas para nuestro modelo, desde un directorio. Nota: SIEMPRE espera tener al menos una carpeta dentro del directory (no se pueden tirar las imágenes dentro de la carpeta test directo, por ejemplo)
     image_generator.flow_from_directory(
@@ -51,20 +41,6 @@
         batch_size= batch_size)
 
 ### R1D75
-
-- Para pasar/mover archivos de una carpeta a otra:
-    import os
-    import shutil
-
-    source = 'proyectosCortosPython/a_mover'
-    destination = 'proyectosCortosPython/'
-
-    files = os.listdir(source)
-    for file in files:
-        file_name = os.path.join(source, file)
-        shutil.move(file_name, destination)
-    print("Files Moved")
-- Si no se tiene un subdirectorio, se puede usar el root para poner en from_directory, seleccionando en classes=[] la carpeta que contiene los archivos a testear
 
 - image augmentation: es como se puede modificar las imágenes para que sean más fáciles de modelar, y al mismo tiempo se pueden realizar transformaciones para duplicar la cantidad de train_data.
 
@@ -157,6 +133,7 @@ plotImages(test_images, probabilities=probabilities)
 -   tf.keras.layers.Conv2D(cantidad de filtros, (3, 3) -> Tamaño de filtro, activation='relu' u otro, 
         input_shape=(150, 150, 3)) : tamaño de las muestras y canales (en este caso, imágenes de 150x150 RGB, si fuera gris sería 1 el último). Sólo va en la primera
 - Usar esta función para calcular los steps_per_epoch y validation_steps, sin generar conflicto con las cantidades inexactas.
+```python
 def cal_steps(num_images, batch_size):
    # calculates steps for generator
    steps = num_images // batch_size
@@ -164,12 +141,9 @@ def cal_steps(num_images, batch_size):
    # adds 1 to the generator steps if the steps multiplied by
    # the batch size is less than the total training samples
    return steps + 1 if (steps * batch_size) < num_images else steps
-
+```
 ### R1D79
 
-- data = df1.merge(right=df2, on='isbn') : Para unir/concatenar dos DF, el on= dice que columna comparar para unir y agregar el resto de columnas.
-- df.info o df['columna'].isnull().value_counts(): Se puede obtener si existen valores nulos/vacíos en el df.
-- pivot_df = df.pivot(index='columna1', columns='columna2', values='columna3').fillna(0): Crea un df con los datos delas 3 columnas, marcando las relaciones. Sirve para el modelo de nearestNeighbor (requiere un array o un aray like). Se tiene que convertir a array, por ejemplo haciendo pivot_df.values (creo que no es completamente necesario)
 - Para modelar con NearestNeighbors,m unsupervised,y encontrar los puntos cercanos a un dato buscado, se puede hacer así. Si lo que se busca es un string, se debe convertir primero a un numero (por ejemplo, buscar el índice donde se encuentra)
     nbrs = NearestNeighbors(n_neighbors=5, algorithm='brute', metric='cosine').fit(pivot_df)     : El cosine hace que las distancias sean menores a 1.
     distances, title_indexes = nbrs.kneighbors(X=np.reshape(fila,(1,-1)), n_neighbors=5)     : La fila es todos los datos del punto que se quiere averiguar, basicamente, buscar la fila con ese índice en el df
@@ -200,8 +174,6 @@ def cal_steps(num_images, batch_size):
 - Coeficientes de un modelo linearl: model.intercept_, model.coef_
 
 ### R1D84
-
-- pwd : Muestra el directorio donde está ubicado el notebook
 
 página útil sobre diferentes formas de tokenization
 https://www.analyticsvidhya.com/blog/2019/07/how-get-started-nlp-6-unique-ways-perform-tokenization/#:~:text=Tokenization%20is%20essentially%20splitting%20a,smaller%20units%20are%20called%20tokens.&text=The%20tokens%20could%20be%20words%2C%20numbers%20or%20punctuation%20marks.
@@ -258,40 +230,11 @@ scaler_encoding.fit(train_df)
 matrix = scaler_encoding.transform(train_df)
 df = pd.DataFrame(matrix, index=train_df.index)
 
-### R1D91
-
-- Instalación de la API de Kaggle
-    https://github.com/Kaggle/kaggle-api
-
-    pip install kaggle o conda install -c conda-forge kaggle
-    poner "kaggle" en consola luego de instalado, y se generará la carpeta .kaggle, donde se pone el token (archivo .json) sacado del usuario de kaggle.
-
-    ejemplo de uso:
-    !kaggle competitions list : Lista todas las competiciones
-    Se puede sacar el código de cad dataset o competición para descargar directo.
-
-- Descomprimir archivos descargados:
-    import zipfile
-    import os
-    with zipfile.ZipFile("archivo.zip", "r") as zip_ref:                # La r es de "read"
-        zip_ref.extractall(r"ubicación donde descomprimir")
-    os.remove("archivo.zip")
-
 ### R1D92
 
 - Para eliminar las filas que tengan algún valor outlier en alguna de sus columnas. Considero los outliers como valores con zscore >= 3
     from scipy import stats
     train_df_no_outliers = train_df[(np.abs(stats.zscore(train_df)) < 3).all(axis=1)]  
-
-- Para comprobar que un dataset ya está descargado:
-    ```python
-    import pathlib
-    file = pathlib.Path("folder/file")
-    if file.exists():
-        print('Files already exists')
-    else:
-        print('Creating the file')
-    ```
 
 ### R1D93
 
@@ -308,7 +251,3 @@ https://stackoverflow.com/questions/62658215/convergencewarning-lbfgs-failed-to-
 - Se puede cambiar el solver del lbfgs predeterminado
     Diferentes optimizadores para regresión logística:
     https://stackoverflow.com/questions/38640109/logistic-regression-python-solvers-definitions/52388406#52388406
-
-### R1D95
-
-- %%time : Agregarlo a cada celda al ppio para chequear el tiempo que tarda en correr
