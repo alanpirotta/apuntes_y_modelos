@@ -46,3 +46,27 @@ Matplotlib(plt): Sirve para definir las características del gráfico (no el con
     fig, ax = plt.subplots()
     ax.set(xlabel=None)
 - sns.despine() : Elimina los bordes del gráfico que no tienen ticks.
+
+
+- Para hacer un ciclo de gráficos de distribución sobre subplots:
+    ```python
+    def distribution_plotter(data, label, ax, bin_width=500):
+        dist = sns.histplot(data, stat = 'count', kde = False, 
+                                        line_kws = {'linewidth':5}, 
+                                        binwidth = bin_width,
+                                        ax = ax)    
+                    dist.set_title('Distribucion ' + label + '\n', fontsize = 16)
+
+    fig, ax = plt.subplots(nrows=10, ncols=2, figsize=(25,40), tight_layout=True)
+    # tight_layout hace que se separen correctamente
+    lista = ['filtro1', 'filtro2'] #Lista con los filtros a usar
+    num_lista=0 # número para loopear sobre la lista
+    for i in range(10):
+        for j in range(2):
+            if i==9 and j==1:
+                # Creo este condicional para completar el último gráfico, si la cantidad de valores en la lista son impares
+                distribution_plotter(columnaBuscada, 'Gráfico del total', ax[9][1])
+                break
+            distribution_plotter(columnaBuscada[data[columna a filtrar] == lista[num_lista]], 'gráfico de {}'.format(lista[num_lista]), ax[i][j])
+            num_lista += 1
+    ```
