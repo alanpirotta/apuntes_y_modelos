@@ -21,10 +21,17 @@ Luego del reto, me tomé 11 días donde no controlé mucho mi forma de estudio, 
 ## Notas diarias
 
 ### Sábado 19/3/22
-Cerca de 4 horas
+*Cerca de 4 horas*
 
 - Realicé el examen de **EFset** donde obtuve 92/100 y nivel **C2**.  
     Hace mucho que no rendía un examen de inglés (desde el FCE hace 15 años), por lo que me costaba ubicar mi nivel. Esto me sirvió para confirmar en el caso de reading y listening, que son mis fuertes. Speaking y writing lo tengo un poco oxidado, pero podría recuperar el nivel con un poco de práctica.
 - Realicé el cuestionario, el checkpoint y el desafío de la clase 4 del curso.  
     Fue interesante hacer esto sólo con numpy y sin un DataFrame, tuve que cambiar la forma de pensar, a pesar de que era la misma lógica. Como se que me cuesta retener un poco el cómo hacer subplots con Matplotlib, aproveché y en uno que se pedía hacer un par de gráficos, aproveché y jugué con las ubicaciones de los gráficos, tamaños y con graficar todos con loops en vez de seleccionar sólo un par manualmente.
 
+### Domingo 20/3/22
+*3 horas de análisis de CV y 1 de estudio*
+
+- Reescribí el modelo base de CV, ya que no describía correctamente mi experiencia y a donde apunto. Sigue siendo muy complejo dividir mis puestos y sus tareas, al ser varios se mezclaron las responsabilidades. Creo que encontré el punto correcto 😁  
+    Falta reescribir el acerca de mi en linkedIn y hacer un modelo genérico de carta de presentación.
+- Realicé el checkpoint y desafío de la clase 3 (Numpy) que me había quedado colgado.  
+    No me enseñó nada nuevo, pero sirvió como práctica para mejorar mi imagen mental de la estructura de los dataset🙂
