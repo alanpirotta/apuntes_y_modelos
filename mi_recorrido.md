@@ -35,3 +35,10 @@ Luego del reto, me tomé 11 días donde no controlé mucho mi forma de estudio, 
     Falta reescribir el acerca de mi en linkedIn y hacer un modelo genérico de carta de presentación.
 - Realicé el checkpoint y desafío de la clase 3 (Numpy) que me había quedado colgado.  
     No me enseñó nada nuevo, pero sirvió como práctica para mejorar mi imagen mental de la estructura de los dataset🙂
+
+### Lunes 21/3/22
+2.5 horas de curso + lectura libro
+
+Clase sobre Pandas. La forma en que me explicó me sirvió para entender completamente el loc, el iloc y el indexado!! Por más que lo usé muchas veces, siempre me costaba obtener lo que quería
+Seguí leyendo el libro sobre Machine Learning, aprendí sobre cross-validation. Voy a buscar un libro sobre visualización y mejorar esa parte un poco más, que la vengo dejando un poco de lado.
+
