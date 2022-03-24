@@ -42,3 +42,11 @@ Luego del reto, me tomé 11 días donde no controlé mucho mi forma de estudio, 
 Clase sobre Pandas. La forma en que me explicó me sirvió para entender completamente el loc, el iloc y el indexado!! Por más que lo usé muchas veces, siempre me costaba obtener lo que quería
 Seguí leyendo el libro sobre Machine Learning, aprendí sobre cross-validation. Voy a buscar un libro sobre visualización y mejorar esa parte un poco más, que la vengo dejando un poco de lado.
 
+
+### Miércoles 23/3/22
+40min + 6 horas de power BI en el trabajo
+
+Parte de los ejercicios de Pandas del curso.
+No tuve mucho tiempo estos días, pero estuve practicamente Power BI en el trabajo.
+
+

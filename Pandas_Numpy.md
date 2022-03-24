@@ -150,3 +150,12 @@ df = reduce_memory_usage(train)
 - data = df1.merge(right=df2, on='isbn') : Para unir/concatenar dos DF, el on= dice que columna comparar para unir y agregar el resto de columnas.
 - df.info o df['columna'].isnull().value_counts(): Se puede obtener si existen valores nulos/vacíos en el df.
 - pivot_df = df.pivot(index='columna1', columns='columna2', values='columna3').fillna(0): Crea un df con los datos delas 3 columnas, marcando las relaciones. Sirve para el modelo de nearestNeighbor (requiere un array o un aray like). Se tiene que convertir a array, por ejemplo haciendo pivot_df.values (creo que no es completamente necesario)
+
+### Unir slices de df
+
+```python
+df.iloc[np.r_[df.head().index, 10:15, df.tail().index],]
+# Sirve para obtener diferentes slices del mismo DataFrame
+pd.concat([df.iloc[0:3], df.iloc[-5:]])
+# Concatena uno abajo del otro, se puede hacer en columnas o con loc
+```
