@@ -13,6 +13,9 @@
 
 ## Markdown
 
+https://programmerclick.com/article/9139292621/
+Útl para encontrar códigos menos usados
+
 ctrl+k y depsués v para activar el preview en **VsCode**.
 ### Usar de 1 a 6 # para títulos (Este es con 3)
 Doble barra espaciadora y enter hace salto de línea simple  
