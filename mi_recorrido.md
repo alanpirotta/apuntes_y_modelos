@@ -49,4 +49,18 @@ Seguí leyendo el libro sobre Machine Learning, aprendí sobre cross-validation.
 Parte de los ejercicios de Pandas del curso.
 No tuve mucho tiempo estos días, pero estuve practicamente Power BI en el trabajo.
 
+### Jueves 24/3/22
+2.5 horas
+
+Clase 6 del curso de Digital House. Probabilidad.  
+Sabía la mayoría de los temas que vimos de la facultad y el mini curso que hice hace un tiempo. Me sirvió para empezar a unir mejor con data Science, y pude sacarme algunas dudas que siempre tuve.
+
+### Sábado 26/3/22
+4.5 horas
+
+Quedé en el curso de Bigdata y DataScience de Codo a Codo! (empezó hace un mes) Voy a hacer los dos a la par, pero si este se concentra un poco más en bigData me parece que será muy buena adición. Realicé la primer clase, pero era introductoria solamente. Me tengo que poner al día.
+También realicé todos los desafíos de digitalHouse hasta el día de hoy (clase 5 y 6).
+
+
+
 

@@ -1,7 +1,44 @@
 ```python
     # Importo la librería con la convención de nombre
     import pandas as pd
+    import numpy as np
 ```
+
+### Visualización de datos:
+
+- display(): Reemplazo del print, que muestra los DataFrame correctamente. Es una función del módulo de IPython 
+- df.isnull().sum().any() : Forma alternativa de ver rápido si existen valores nulos. Se complementa con df.isna().sum().value_counts() si se quiere ver cuantos
+- df.memory_usage() : Devuelve el uso de memoria de cada columna del DF en Bytes.
+- np.finfo(): Los límites de la máquina para cada floating point type.
+
+### Slices de df, Series y Arrays
+
+
+- df.loc[fila, columna]: Para extraer datos (se puede con máscaras). Usa índices explícitos e incluye el último valor marcado en el slice.  
+- df.iloc[fila, columna]: Usa índice implíctos (rangeIndex), no incluye el último valor del slice. 
+
+- Acceder a un valor de una fila y columna:
+    - df.loc[fila][columna] o df.loc[fila, columna]: Busca por el nombre que se le haya asignado a los índices. funcionan con máscaras.
+    - df.at[fila, columna]: Devuelve sólo un valor 
+- Formas de juntar varios slices:
+    ```python
+    np.concatenate([Array1, Array2])
+    df.iloc[np.r_[df.head().index, 10:15, df.tail().index],]
+    # Sirve para obtener diferentes slices del mismo DataFrame
+    pd.concat([df1, df2])
+    # Concatena uno abajo del otro, se puede hacer en columnas o con loc
+    ```
+
+### Generación de datos
+
+- random Generator de Nuympy: Provee varias forams de generar datos con distribuciones específicas.  
+    rng = np.random.default_rng(seed) : Devuelve el generador rng  
+    ej dist normal: rng.norma(punto_central, desviacion, cantidad)
+
+- pd.Series(data, index= ,name= ): genera una Series de Pandas
+- pd.DataFrame(data, index= , columns= ) : Genera un DataFrame con los datos pasados
+
+### Notas desordenadas
 
 - DataFrame.apply: sirve para modificar todos los valores en u n DF. el "axis" es para definir si lo hace en cada columna o en cada fila.
 - DataFrame.groupby([columna]): Agrupa todas las filas con el mismo valor. (símil a tablas dinámicas en excel)
@@ -24,10 +61,7 @@ ej: df.rename_axis('nombre_columnas', axis='columns')
 - DF.max().idxmax(): Devuelve el label de la columna con el valor más alto de un DF
 - DF[DF.max().idxmax()].idxmax(): devuelve el index del valor más alto de un DF
 
-- Acceder a un valor de una fila y columna:
-    - df.loc[][]: df.loc[ valor del índice ][columna]. 
-    - df.at[índice, columna]: Devuelve sólo un valor 
-    - df.loc[][]: df.loc[ df.index == ][ columna].values[0]. obtiene una series, la convierte a ndarray con values y muestra el indice 0. Esta forma es porque al tener una condición, el loc puede tener más de un valor y por eso trae una series.
+
 - pd.to_numeric(): sirve para convertir una series a int o float. Para convertir parte de un df, se puede usar appliy:
     - df[['column1', 'column2']].apply(pd.to_numeric, errors=, downcast=): el errors sirve para que los no convertibles los ignore o los convierte en NaN. downcast te devuelve el int o float más chico posible
 - df.astype(int/float): Convierte el tipo de las columnas al buscado. No acepta NaN, por lo que se debe usar fillna() antes.
@@ -87,8 +121,7 @@ Chequeo de duplicados en index. (aplica para columnas que no sean índice)
 - df.groupby('columna1').agg(['count', 'sum', 'mean', 'median']).loc[índice,'columna2']: Otra forma de obtener lo mismo, pero con el método agg donde puedo seleccionar qué quiero poner, y poner otras cosas (como la suma)
 
 - df.index.get_level_values(nivel de indice(0,1,2...)).unique(): Para extraer los valoresúnicos de un índice específico. Forma extraña, hay más fáciles.
-- df.loc[(indice1, )].index: forma de extraer los valores del segundo índice, de un sólo valor del primer índice
-- df.loc[(índice1, )]['indice_col1']['indice_col2']: Forma de acceder a una columna específica cuando se tiene multiIndex en filas Y columnas. Se puede poner también como ['indice_col1', 'indice_col2']
+
 - df.columns = ['_'.join(col).strip('_') for col in df.columns.values]: Sirve para unir los nombres de las columnas, con un guión bajo en el medio y eliminandolo al final si no tiene segundo Indice
 - Df.fillna(method='ffill') o bfill: para que conplete los NaN con el valor de la fila anterior.
 - read_csv(data,
@@ -116,10 +149,7 @@ Chequeo de duplicados en index. (aplica para columnas que no sean índice)
     unique, counts = np.unique(array, return_counts=True)
     dict(zip(unique, counts))
 
-- df.isnull().sum().any() : Forma alternativa de ver rápido si existen valores nulos. Se complementa con df.isna().sum().value_counts() si se quiere ver cuantos
-- display(): Reemplazo del print, que muestra los DataFrame correctamente. 
-- df.memory_usage() : Devuelve el uso de memoria de cada columna del DF en Bytes.
-- np.finfo(): Los límites de la máquina para cada floating point type.
+
 
 Ejemplo de como reducir el uso de memoria optimizando dtypes para floats:
 
@@ -151,11 +181,3 @@ df = reduce_memory_usage(train)
 - df.info o df['columna'].isnull().value_counts(): Se puede obtener si existen valores nulos/vacíos en el df.
 - pivot_df = df.pivot(index='columna1', columns='columna2', values='columna3').fillna(0): Crea un df con los datos delas 3 columnas, marcando las relaciones. Sirve para el modelo de nearestNeighbor (requiere un array o un aray like). Se tiene que convertir a array, por ejemplo haciendo pivot_df.values (creo que no es completamente necesario)
 
-### Unir slices de df
-
-```python
-df.iloc[np.r_[df.head().index, 10:15, df.tail().index],]
-# Sirve para obtener diferentes slices del mismo DataFrame
-pd.concat([df.iloc[0:3], df.iloc[-5:]])
-# Concatena uno abajo del otro, se puede hacer en columnas o con loc
-```
