@@ -61,6 +61,13 @@ Sabía la mayoría de los temas que vimos de la facultad y el mini curso que hic
 Quedé en el curso de Bigdata y DataScience de Codo a Codo! (empezó hace un mes) Voy a hacer los dos a la par, pero si este se concentra un poco más en bigData me parece que será muy buena adición. Realicé la primer clase, pero era introductoria solamente. Me tengo que poner al día.
 También realicé todos los desafíos de digitalHouse hasta el día de hoy (clase 5 y 6).
 
+### Domingo 27/3/22
+2 horas
+
+Estuve con la competencia de tabular data de Kaggle de Marzo. Hice un poco de Feature Engineering y luego use el regressor de XGBoost sin modificaciones. Entré en el puesto 422 :)   
+*Nota importante:* Es una time series, nunca había hecho una, es interesante lo que se considera, y utilizando la mediana de los datos según lugar y hora me aproximé bastante.  
+Hay muchísimo que mejorar todavía, hay varias ideas de mas Features y ni entré en el tuneo del modelo, pero no se si llegaré a hacer algo antes de que termine.  
+*reflexiones propias:* Me siento mucho más orientado ahora con los cursos aunque vea cosas que ya practiqué, me sirve mucho para que me cierren varias cosas específicas, pero al mismo tiempo, hace que me cueste mucho más hacer cosas por fuera como lo que hice hoy, al usar mucho tiempo en eso.
 
 
 

@@ -17,7 +17,7 @@
 - df.loc[fila, columna]: Para extraer datos (se puede con máscaras). Usa índices explícitos e incluye el último valor marcado en el slice.  
 - df.iloc[fila, columna]: Usa índice implíctos (rangeIndex), no incluye el último valor del slice. 
 
-- Acceder a un valor de una fila y columna:
+- Acceder a **un** valor de una fila y columna:
     - df.loc[fila][columna] o df.loc[fila, columna]: Busca por el nombre que se le haya asignado a los índices. funcionan con máscaras.
     - df.at[fila, columna]: Devuelve sólo un valor 
 - Formas de juntar varios slices:
@@ -27,7 +27,10 @@
     # Sirve para obtener diferentes slices del mismo DataFrame
     pd.concat([df1, df2])
     # Concatena uno abajo del otro, se puede hacer en columnas o con loc
+    df.merge(segundo_df, how= 'joins de sql', on= [columnas que se comparan])
+    # funciona como el concat, pero se peude específicar más cosas
     ```
+    
 
 ### Generación de datos
 
@@ -53,7 +56,6 @@
 ejemplo: df.rename(columns={'antiguo_nombre': 'nuevo_nombre'})
 - df.rename_axis(): renombrar los "ejes" de la tabla. 
 ej: df.rename_axis('nombre_columnas', axis='columns')
-- pd.concat([df1, df2]): une los dos DF en uno solo (tendría que tener las mismas columnas)
 - df.set_index(): setea los index usando una o más columnas del DF. Sirve para después juntar varios DF usando estas columnas como puntos en común.
 - df.join(): junta dos DF en uno. Las columnas deben tener distintos nombres ( o agregar sufijos)
 - DF.max(axis=1)['row']: Para buscar el máximo valor de una fila (si se cambia el axis sería de una columna)
@@ -177,7 +179,7 @@ df = reduce_memory_usage(train)
 - df.nunique(): Cuenta la cantidad de valores unicos en el eje específicado (axis=0 columnas)
 - df.T.style.background_gradient(cmap='RdYlGn', subset=[]).bar(subset=[]), color='tomato'): Sirve para colorear las celdas según el cmap por los valores. el .bar es para hacer una barra con el color, y el subset es para marcar en qué features se hará.
 
-- data = df1.merge(right=df2, on='isbn') : Para unir/concatenar dos DF, el on= dice que columna comparar para unir y agregar el resto de columnas.
+
 - df.info o df['columna'].isnull().value_counts(): Se puede obtener si existen valores nulos/vacíos en el df.
 - pivot_df = df.pivot(index='columna1', columns='columna2', values='columna3').fillna(0): Crea un df con los datos delas 3 columnas, marcando las relaciones. Sirve para el modelo de nearestNeighbor (requiere un array o un aray like). Se tiene que convertir a array, por ejemplo haciendo pivot_df.values (creo que no es completamente necesario)
 
