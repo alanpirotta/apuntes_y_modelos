@@ -70,4 +70,16 @@ Hay muchísimo que mejorar todavía, hay varias ideas de mas Features y ni entr�
 *reflexiones propias:* Me siento mucho más orientado ahora con los cursos aunque vea cosas que ya practiqué, me sirve mucho para que me cierren varias cosas específicas, pero al mismo tiempo, hace que me cueste mucho más hacer cosas por fuera como lo que hice hoy, al usar mucho tiempo en eso.
 
 
+### Lunes 28/3/22
+3 horas
 
+Clase del curso de Digital house sobre GeoPandas. Me gustarían que se vieran más cosas durante la clase, no sólo lo básico. Yo después practico por mi cuenta, pero podría sacarles mucho más jugo si se van un poco más fuera de la presentación en si, que puedo leerla por mi cuenta antes.  
+Fuera de eso, creo que me está sirviendo mucho para reforzar y cerrar el marco de determinados conceptos, y a conocer más gente que les interesa lo mismo que a mi 😊  
+
+### Miércoles 30/3/22
+
+Estuve recuperando las clases retrasadas del curso de codo a codo sobre bigdata, no aprendí mucho hasta ahora porque fueron introducciones básicas al tema, pero veré en las siguientes clases. 
+Empecé a leer un libro sobre data viz, para ver algo más formal sobre el tema.
+
+> Hands-On Data Visualization  
+*Jack Dougherty*
