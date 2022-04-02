@@ -78,8 +78,21 @@ Fuera de eso, creo que me está sirviendo mucho para reforzar y cerrar el marco 
 
 ### Miércoles 30/3/22
 
-Estuve recuperando las clases retrasadas del curso de codo a codo sobre bigdata, no aprendí mucho hasta ahora porque fueron introducciones básicas al tema, pero veré en las siguientes clases. 
 Empecé a leer un libro sobre data viz, para ver algo más formal sobre el tema.
+Estuve recuperando las clases retrasadas del curso de codo a codo sobre bigdata, no aprendí mucho hasta ahora porque fueron introducciones básicas al tema, pero veré en las siguientes clases. 
 
 > Hands-On Data Visualization  
 *Jack Dougherty*
+
+### Jueves 31/3/22
+3 horas
+
+Clase 8 de repaso de todo lo aprendido. No aprendí nada nuevo en la clase de hoy, pero pude aportar y ayudar un poco en la clase. Continué la lectura del libro. 
+
+### Sábado 2/4/22
+4 horas
+
+Clases retrasadas del curso de codo a codo (voy por la clase 4 de 8), checkpoint y desafío de GeoPandas del curso de DH.  
+No me interesó mucho GeoPandas la verdad, se ve lindo y puede ser útil, pero no me generó nada el usarlo. La práctica igual me sirvió para ordenar apuntes y recordar algunas cosas que no usaba hace un tiempo.  
+Creo que el hecho de seguir un curso con tiempos pautados me perjudica un poco, ya que hasta ahora va más lento que mi ritmo normal, y me saca un poco la energía de ponerme a aprender y probar cosas, frustrándome un poco en el proceso. Espero que esto pase sólo en esta parte donde los temas los sabía muy bien desde antes.
+
