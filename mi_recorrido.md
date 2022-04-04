@@ -96,3 +96,11 @@ Clases retrasadas del curso de codo a codo (voy por la clase 4 de 8), checkpoint
 No me interesó mucho GeoPandas la verdad, se ve lindo y puede ser útil, pero no me generó nada el usarlo. La práctica igual me sirvió para ordenar apuntes y recordar algunas cosas que no usaba hace un tiempo.  
 Creo que el hecho de seguir un curso con tiempos pautados me perjudica un poco, ya que hasta ahora va más lento que mi ritmo normal, y me saca un poco la energía de ponerme a aprender y probar cosas, frustrándome un poco en el proceso. Espero que esto pase sólo en esta parte donde los temas los sabía muy bien desde antes.
 
+### Domingo 3/4/22
+1 hora
+
+Hoy me concentré en resetearme y hacer otras cosas. Sin embargo, más al final del día me puse al día con las aulas virtuales de ambos cursos, realizando todos los examenes disponibles hasta el día de hoy.  
+En el examen final del módulo 1 del curso de DH me equivoqué en una respuesta por impaciente (clickee mal la respuesta y no rechequee), pero me saque un 90% sin buscar nada en internet 😊  
+Dos datos interesantes que descubrí hoy:
+- En la competencia TPS-Mar22 quedé 272/956 (subí 217 puestos con los resultados finales). Para el tiempo que le dediqué es un RE buen resultado! 😄
+- #66DaysOfData. Es similar a #100DaysOfCode, pero para data, con un mínimo de tiempo de 5 minutos y con la condición no necesariamente de codear, pero si aprender algo. Lo empecé hoy 💪
