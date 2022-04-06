@@ -104,3 +104,16 @@ En el examen final del módulo 1 del curso de DH me equivoqué en una respuesta 
 Dos datos interesantes que descubrí hoy:
 - En la competencia TPS-Mar22 quedé 272/956 (subí 217 puestos con los resultados finales). Para el tiempo que le dediqué es un RE buen resultado! 😄
 - #66DaysOfData. Es similar a #100DaysOfCode, pero para data, con un mínimo de tiempo de 5 minutos y con la condición no necesariamente de codear, pero si aprender algo. Lo empecé hoy 💪
+
+### Lunes 4/4/22
+3 horas
+
+Día 2 de #66DaysOfData
+Clase del curso de Digital House sobre EDA y Regex.
+
+### Martes 5/4/22
+30 minutos
+
+Día 3 de #66DaysOfData
+Estuve averiguando como convertir y descargar los notebooks como PDF. Hay que instalar varias cosas, pero no logré hacerlo desde jupyter lab, desde consola logré hacerlo con `$ jupyter nbconvert --to pdf notebook.ipynb`, pero uno de los notebooks me tiró siempre error.
+
