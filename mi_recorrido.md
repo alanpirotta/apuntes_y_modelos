@@ -117,3 +117,11 @@ Clase del curso de Digital House sobre EDA y Regex.
 Día 3 de #66DaysOfData
 Estuve averiguando como convertir y descargar los notebooks como PDF. Hay que instalar varias cosas, pero no logré hacerlo desde jupyter lab, desde consola logré hacerlo con `$ jupyter nbconvert --to pdf notebook.ipynb`, pero uno de los notebooks me tiró siempre error.
 
+### Miércoles 6/4/22
+3 horas
+
+Día 4 de #66DaysOfData  
+Realicé la prueba de testeo y luego la entrevista técnica del Programa de IT Bootcamp Data & Analytics 2022 en HackerRank. Estuve MUCHO rato con el código de SQL porque me rebusqué de más probando con CTE y era mucho más simple con un INNER JOIN.  
+Hubo un par de preguntas de teoría que dudé, y tengo que aprender un poco más de integración contínua, pero creo que me fue bien. 
+Lo que sí, terminé **agotado** entre el trabajo y el examen.
+En resumen fue una buena experiencia, la primera prueba técnica que tuve, espero que haya sido suficiente.😊
