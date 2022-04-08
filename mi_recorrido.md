@@ -125,3 +125,10 @@ Realicé la prueba de testeo y luego la entrevista técnica del Programa de IT B
 Hubo un par de preguntas de teoría que dudé, y tengo que aprender un poco más de integración contínua, pero creo que me fue bien. 
 Lo que sí, terminé **agotado** entre el trabajo y el examen.
 En resumen fue una buena experiencia, la primera prueba técnica que tuve, espero que haya sido suficiente.😊
+
+### Jueves 7/4/22
+3 horas
+
+Día 5 de #66DaysOfData
+Clase de Matplotlib y Seaborn del curso de DH, y empecé a ver un mini curso de Power BI para repasar algunos conceptos de DAX. Esta semana estoy extremadamente cansado y me está costando mucho concentrarme, principalmente por muchos cambios en el trabajo.
+
