@@ -1,4 +1,14 @@
 
+### PairGrid
+
+Se debe primero asignar los datos y generar la grilla. Luego, se le generan los gráficos en cada posición, según lo que se necesite.
+ej:
+```python
+    g = sns.PairGrid(df, hue='columna', vars=['lista_de_features'] diag_sharey=False)
+    g.map_diag(sns.histplot)
+    g.map_offdiag(sns.scatterplot)
+    g.add_legend()
+```
 
 Matplotlib(plt): Sirve para definir las características del gráfico (no el contenico?) 
 - plt.figure(figsize=(ancho,alto)): Define el tamaño del gráfico

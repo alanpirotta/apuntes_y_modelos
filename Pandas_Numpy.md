@@ -52,6 +52,10 @@ pd.read_csv(data,
 ```
 ## Manipulación de datos
 
+### Máscaras
+`df[df['columna'].isin([lista_de_valores])]` : Para extraer sólo las filas donde los valores de esa columna estén dentro de la lista.  
+
+
 ### groupby
 `df.groupby([columna])`: Agrupa todas las filas con el mismo valor. (símil a tablas dinámicas en excel)  
 `df.groupby().size()`: Devuelve una series con la cantidad de entradas de cada agrupación.    

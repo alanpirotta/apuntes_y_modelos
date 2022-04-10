@@ -144,3 +144,10 @@ Clase de Bases de datos relaciones y no relacionales de codo a codo. Me gustó c
 Día 7 de #66DaysOfData
 Día de semi descanso, salí, dormí hasta tarde y traté de no pensar demasiado en nada. Fue un buen día, creo que me recargó bastante.
 De estudio sólo terminé de ver la clase de BBDD de codo a codo, y empecé la de BBDD relacionales, pero todo lo que vi hasta ahora lo sabía perfectamente, probablemente saltee hasta cosas un poco más complejas que espero me enseñen algo nuevo.
+
+### Domingo 10/4/22
+1 hora
+
+Día 8 de #66DaysOfData
+Realicé el checkpoint de visualización con Matplotlib y  Seaborn, y ordené un poco los apuntes de esas librerías. No estoy retrasado porque estos conocimientos ya los tengo en gran parte, pero estoy estudiando menos de lo que me gustaría, no logro todavía el equilibrio perfecto entre trabajo/estudio/vida social/relajacíón.  
+Se viene un finde largo en el que ordenaré de nuevo adaptando a mi situación actual 
