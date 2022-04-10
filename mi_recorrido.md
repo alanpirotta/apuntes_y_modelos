@@ -132,3 +132,15 @@ En resumen fue una buena experiencia, la primera prueba técnica que tuve, esper
 Día 5 de #66DaysOfData
 Clase de Matplotlib y Seaborn del curso de DH, y empecé a ver un mini curso de Power BI para repasar algunos conceptos de DAX. Esta semana estoy extremadamente cansado y me está costando mucho concentrarme, principalmente por muchos cambios en el trabajo.
 
+### Viernes 8/4/22
+1.5 horas
+
+Día 6 de #66DaysOfData
+Clase de Bases de datos relaciones y no relacionales de codo a codo. Me gustó como introducción de las no relacionales, que son un tema pendiente que tengo a aprender en el futuro. Hoy estuve tan agotado que casi me duermo en el trabajo cuando tuve que realizar una modificación en excel medio monótona, nunca me había pasado.
+
+### Sábado 9/4/22
+30 minutos
+
+Día 7 de #66DaysOfData
+Día de semi descanso, salí, dormí hasta tarde y traté de no pensar demasiado en nada. Fue un buen día, creo que me recargó bastante.
+De estudio sólo terminé de ver la clase de BBDD de codo a codo, y empecé la de BBDD relacionales, pero todo lo que vi hasta ahora lo sabía perfectamente, probablemente saltee hasta cosas un poco más complejas que espero me enseñen algo nuevo.
