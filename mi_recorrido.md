@@ -151,3 +151,10 @@ De estudio sólo terminé de ver la clase de BBDD de codo a codo, y empecé la d
 Día 8 de #66DaysOfData
 Realicé el checkpoint de visualización con Matplotlib y  Seaborn, y ordené un poco los apuntes de esas librerías. No estoy retrasado porque estos conocimientos ya los tengo en gran parte, pero estoy estudiando menos de lo que me gustaría, no logro todavía el equilibrio perfecto entre trabajo/estudio/vida social/relajacíón.  
 Se viene un finde largo en el que ordenaré de nuevo adaptando a mi situación actual 
+
+### Lunes 11/4/22 - Miércoles 12/4/22
+2 horas aprox. en total.
+
+Días 9-11 de #66DaysOfData
+El trabajo fue un caos, y estoy tratando de ayudar y organizar en otras tareas porque hay menos gente, además de entrenar al chico nuevo del laboratorio. Además de eso tuve algunaqs salidas. 
+El estudio fue en los tiempos libres, o las caminatas de ida y vuelta al trabajo. Realicé la pregunta diaria de Bnomial https://today.bnomial.com/ , seguí con el libro de visualización, practiqué pronunciación en inglés (tengo que sacar un poco el óxido) y vi algunas cosas más de power BI.
