@@ -166,3 +166,11 @@ El estudio fue en los tiempos libres, o las caminatas de ida y vuelta al trabajo
 Día 12 de #66DaysOfData  
 Realicé todos los exámenes de ambos cursos hasta el día, ordene la información, y realicé el desafío de la clase de visualización del curso de Digital House.  
 Fue un día productivo, donde pude descansar, estudiar y jugar en buen equilibrar 😊
+
+### Viernes 15/4/22
+3.5 horas
+
+Día 13 de #66DaysOfData
+Dos clases del curso de codo a codo (sigo retrasado varias clases, pero aprendo muy poco nuevo de cada una hasta ahora).  
+Practiqué un poco más de inglés con Duolingo y Elsa speak. No me terminan de gustar esas app para mi nivel actual, pero capaz las estoy usando mal, voy a probarlas unos días más y sino probar otra.  
+50% de desafío clase 11 de DH, Joins con Pandas. Pude hacer todos los puntos con funcionas básicas, pero también busqué como hacerlo con métodos alternativos como qcut y pivot_tables. Me faltó probar con regular expressions un ej.

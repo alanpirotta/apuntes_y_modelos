@@ -35,6 +35,8 @@ Acceder a **un** valor de una fila y columna:
 - `df.loc[fila][columna]` o `df.loc[fila, columna]`: Busca por el nombre que se le haya asignado a los índices. funcionan con máscaras.
     - `df.at[fila, columna]`: Devuelve sólo un valor 
 
+`pd.qcut(df['columna'],num_cortes)` : Genera una Series con las filas separadas en la cantidad de partes que se pida (4 sería los cuatro cuartiles). Luego se puede agrupar el df usando esta Serie.  
+
 ## Generación de datos y estructuras
 
 Random Generator de Nuympy: Provee varias forams de generar datos con distribuciones específicas.  
@@ -62,6 +64,9 @@ pd.read_csv(data,
 *Alternativa:* `df.groupby('columna1').agg(['count', 'sum', 'mean', 'median']).loc[índice,'columna2']`: Otra forma de obtener lo mismo, pero con el método agg donde puedo seleccionar qué quiero poner, y poner otras cosas (como la suma)  
 `df.columns = df.columns.map('_'.join).strip('_')`: Para unir los nombres del multiIndex de columnas creado en un groupby.  
 *Alternativa:* `df.columns = ['_'.join(col).strip('_') for col in df.columns.values]`
+
+
+
 
 `array.reshape(1,-1)`: Cambia la forma del array. El -1 sirve para completar lo que se necesite (de forma que mantenga la cantidad de datos constante)  
 `df.apply()`: sirve para modificar todos los valores en un DF. el "axis" es para definir si lo hace en cada columna o en cada fila.  

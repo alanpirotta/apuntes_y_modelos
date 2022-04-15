@@ -1,3 +1,17 @@
+# Python y librerías útiles para Data Science
+## Fuera de las más comunes, que hice apuntes por separado
+
+### Librería chardet
+Puedo detectar qué tipo de codificación tiene un dataset.
+```python
+import chardet
+def get_encoding_type(csv_path):
+    rawdata = open(csv_path, 'rb').read()
+    result = chardet.detect(rawdata)
+    return result.get('encoding')
+```
+
+
 - variable = [i**2 for i in range(10)]: ejemplo de forma de escribir un loop en una línea (list comprehension)
 
 - max(lista_de_respuestas, key= condicion_generadora_de_respuesta): Sirve para averiguar el índice que tiene el máximo de un diccionario (poniendo por ej: key= lambda k: dict[k] o key= dict.get) o el máximo de ocurrencias en una lista (con key=lista.count)). 
