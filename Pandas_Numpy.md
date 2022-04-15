@@ -55,7 +55,6 @@ pd.read_csv(data,
 ### Máscaras
 `df[df['columna'].isin([lista_de_valores])]` : Para extraer sólo las filas donde los valores de esa columna estén dentro de la lista.  
 
-
 ### groupby
 `df.groupby([columna])`: Agrupa todas las filas con el mismo valor. (símil a tablas dinámicas en excel)  
 `df.groupby().size()`: Devuelve una series con la cantidad de entradas de cada agrupación.    
@@ -68,7 +67,8 @@ pd.read_csv(data,
 `df.apply()`: sirve para modificar todos los valores en un DF. el "axis" es para definir si lo hace en cada columna o en cada fila.  
 `df['column].sort_values()`: si es una series no necesita "by=", si es un DF requiere que se seleccione la columna.  
 `df.rename(columns={'nombreviejo': 'nombrenuevo'})`: Cambiar los nombres de columna
-`df.rename_axis('nombre_columnas', axis='columns')`: renombrar los "ejes" de la tabla. 
+`df.rename_axis('nombre_columnas', axis='columns')`: renombrar los "ejes" de la tabla.   
+`pd.Timedelta(days=, hours=, minutes=, seconds=)`: Crea datos del tipo Timedelta de lapsos de tiempo (si se pasan a np.int64 son nanosegundos). Se puede usar en un apply de una feature (separando correctamente las diferentes partes)
 
 
 ## Notas desordenadas

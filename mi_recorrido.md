@@ -154,7 +154,15 @@ Se viene un finde largo en el que ordenaré de nuevo adaptando a mi situación a
 
 ### Lunes 11/4/22 - Miércoles 12/4/22
 2 horas aprox. en total.
+Edit: el lunes también tuve las 2,5 horas del curso de DH donde vimos joins en Pandas.
 
-Días 9-11 de #66DaysOfData
-El trabajo fue un caos, y estoy tratando de ayudar y organizar en otras tareas porque hay menos gente, además de entrenar al chico nuevo del laboratorio. Además de eso tuve algunaqs salidas. 
-El estudio fue en los tiempos libres, o las caminatas de ida y vuelta al trabajo. Realicé la pregunta diaria de Bnomial https://today.bnomial.com/ , seguí con el libro de visualización, practiqué pronunciación en inglés (tengo que sacar un poco el óxido) y vi algunas cosas más de power BI.
+Días 9-11 de #66DaysOfData  
+El trabajo fue un caos, y estoy tratando de ayudar y organizar en otras tareas porque hay menos gente, además de entrenar al chico nuevo del laboratorio. Además de eso tuve algunaqs salidas.  
+El estudio fue en los tiempos libres, o las caminatas de ida y vuelta al trabajo. Realicé la pregunta diaria de Bnomial https://today.bnomial.com/ , seguí con el libro de visualización, practiqué pronunciación en inglés (tengo que sacar un poco el óxido) y vi algunas cosas más de power BI.  
+
+### Jueves 14/4/22
+3 horas
+
+Día 12 de #66DaysOfData  
+Realicé todos los exámenes de ambos cursos hasta el día, ordene la información, y realicé el desafío de la clase de visualización del curso de Digital House.  
+Fue un día productivo, donde pude descansar, estudiar y jugar en buen equilibrar 😊
