@@ -108,19 +108,19 @@ Dos datos interesantes que descubrí hoy:
 ### Lunes 4/4/22
 3 horas
 
-Día 2 de #66DaysOfData
+*Día 2 de #66DaysOfData*  
 Clase del curso de Digital House sobre EDA y Regex.
 
 ### Martes 5/4/22
 30 minutos
 
-Día 3 de #66DaysOfData
+*Día 3 de #66DaysOfData*  
 Estuve averiguando como convertir y descargar los notebooks como PDF. Hay que instalar varias cosas, pero no logré hacerlo desde jupyter lab, desde consola logré hacerlo con `$ jupyter nbconvert --to pdf notebook.ipynb`, pero uno de los notebooks me tiró siempre error.
 
 ### Miércoles 6/4/22
 3 horas
 
-Día 4 de #66DaysOfData  
+*Día 4 de #66DaysOfData*    
 Realicé la prueba de testeo y luego la entrevista técnica del Programa de IT Bootcamp Data & Analytics 2022 en HackerRank. Estuve MUCHO rato con el código de SQL porque me rebusqué de más probando con CTE y era mucho más simple con un INNER JOIN.  
 Hubo un par de preguntas de teoría que dudé, y tengo que aprender un poco más de integración contínua, pero creo que me fue bien. 
 Lo que sí, terminé **agotado** entre el trabajo y el examen.
@@ -129,26 +129,26 @@ En resumen fue una buena experiencia, la primera prueba técnica que tuve, esper
 ### Jueves 7/4/22
 3 horas
 
-Día 5 de #66DaysOfData
+*Día 5 de #66DaysOfData*  
 Clase de Matplotlib y Seaborn del curso de DH, y empecé a ver un mini curso de Power BI para repasar algunos conceptos de DAX. Esta semana estoy extremadamente cansado y me está costando mucho concentrarme, principalmente por muchos cambios en el trabajo.
 
 ### Viernes 8/4/22
 1.5 horas
 
-Día 6 de #66DaysOfData
+*Día 6 de #66DaysOfData*  
 Clase de Bases de datos relaciones y no relacionales de codo a codo. Me gustó como introducción de las no relacionales, que son un tema pendiente que tengo a aprender en el futuro. Hoy estuve tan agotado que casi me duermo en el trabajo cuando tuve que realizar una modificación en excel medio monótona, nunca me había pasado.
 
 ### Sábado 9/4/22
 30 minutos
 
-Día 7 de #66DaysOfData
+*Día 7 de #66DaysOfData*  
 Día de semi descanso, salí, dormí hasta tarde y traté de no pensar demasiado en nada. Fue un buen día, creo que me recargó bastante.
 De estudio sólo terminé de ver la clase de BBDD de codo a codo, y empecé la de BBDD relacionales, pero todo lo que vi hasta ahora lo sabía perfectamente, probablemente saltee hasta cosas un poco más complejas que espero me enseñen algo nuevo.
 
 ### Domingo 10/4/22
 1 hora
 
-Día 8 de #66DaysOfData
+*Día 8 de #66DaysOfData*  
 Realicé el checkpoint de visualización con Matplotlib y  Seaborn, y ordené un poco los apuntes de esas librerías. No estoy retrasado porque estos conocimientos ya los tengo en gran parte, pero estoy estudiando menos de lo que me gustaría, no logro todavía el equilibrio perfecto entre trabajo/estudio/vida social/relajacíón.  
 Se viene un finde largo en el que ordenaré de nuevo adaptando a mi situación actual 
 
@@ -156,21 +156,30 @@ Se viene un finde largo en el que ordenaré de nuevo adaptando a mi situación a
 2 horas aprox. en total.
 Edit: el lunes también tuve las 2,5 horas del curso de DH donde vimos joins en Pandas.
 
-Días 9-11 de #66DaysOfData  
+*Días 9-11 de #66DaysOfData*  
 El trabajo fue un caos, y estoy tratando de ayudar y organizar en otras tareas porque hay menos gente, además de entrenar al chico nuevo del laboratorio. Además de eso tuve algunaqs salidas.  
 El estudio fue en los tiempos libres, o las caminatas de ida y vuelta al trabajo. Realicé la pregunta diaria de Bnomial https://today.bnomial.com/ , seguí con el libro de visualización, practiqué pronunciación en inglés (tengo que sacar un poco el óxido) y vi algunas cosas más de power BI.  
 
 ### Jueves 14/4/22
 3 horas
 
-Día 12 de #66DaysOfData  
+*Día 12 de #66DaysOfData*   
 Realicé todos los exámenes de ambos cursos hasta el día, ordene la información, y realicé el desafío de la clase de visualización del curso de Digital House.  
 Fue un día productivo, donde pude descansar, estudiar y jugar en buen equilibrar 😊
 
 ### Viernes 15/4/22
 3.5 horas
 
-Día 13 de #66DaysOfData
+*Día 13 de #66DaysOfData*  
 Dos clases del curso de codo a codo (sigo retrasado varias clases, pero aprendo muy poco nuevo de cada una hasta ahora).  
 Practiqué un poco más de inglés con Duolingo y Elsa speak. No me terminan de gustar esas app para mi nivel actual, pero capaz las estoy usando mal, voy a probarlas unos días más y sino probar otra.  
 50% de desafío clase 11 de DH, Joins con Pandas. Pude hacer todos los puntos con funcionas básicas, pero también busqué como hacerlo con métodos alternativos como qcut y pivot_tables. Me faltó probar con regular expressions un ej.
+
+### Sábado 16/4/22
+3.5 horas
+
+*Día 14 de #66DaysOfData*  
+Una clase más del curso de codoACodo (me faltan 5 todavía). Sigo sin aprender mucho nuevo en ese curso.  
+Terminé el desafío de Pandas de pivot_table y groupby de DH. Fue una buena práctica, esto lo sabía pero me faltaba fluidez🙂  
+También leí la teoría para la clase siguiente de DataWrangling. Me surgió una duda que después la consultaré en clase.  
+*Falta* el ejercicio extra de joins del curso de DH 

@@ -13,12 +13,12 @@
 `np.finfo()`: Los límites de la máquina para cada floating point type.  
 `Series.dtype`  y `df.dtypes`: Muestra los tipos de datos de las tiras de datos  
 
-## Slices de df, Series y Arrays
+## Slices de df, Series y Arrays:
 
 `df.loc[fila, columna]`: Para extraer datos (se puede con máscaras). Usa índices explícitos e incluye el último valor marcado en el slice.  
 `df.iloc[fila, columna]`: Usa índice implíctos (rangeIndex), no incluye el último valor del slice.  
 
-Formas de juntar varios slices:  
+### Juntar Series y DataFrames: 
 ```python
 np.concatenate([Array1, Array2])
 df.iloc[np.r_[df.head().index, 10:15, df.tail().index],]
@@ -31,13 +31,17 @@ df.merge(segundo_df, how= 'joins de sql', on= [columnas que se comparan])
 # funciona como el concat, pero se peude específicar más cosas
 ```
 
-Acceder a **un** valor de una fila y columna:  
+### Acceder a **un** valor de una fila y columna:  
 - `df.loc[fila][columna]` o `df.loc[fila, columna]`: Busca por el nombre que se le haya asignado a los índices. funcionan con máscaras.
     - `df.at[fila, columna]`: Devuelve sólo un valor 
 
+### Extraer percentiles:
 `pd.qcut(df['columna'],num_cortes)` : Genera una Series con las filas separadas en la cantidad de partes que se pida (4 sería los cuatro cuartiles). Luego se puede agrupar el df usando esta Serie.  
+`df.quantile(q= 0-1)`: devuelve el cuantil/percentil que se está pidiendo entre 0 y 1. Se pueden comparar y usar como filtros para eliminar extremos  
+`df[(df['value'] > df['value'].quantile(0.025)) & (df['value'] < df['value'].quantile(0.975))]` : Forma rápida de eliminar el top y bottom 2.5% de datos según una columna  
 
-## Generación de datos y estructuras
+
+## Generación de datos y estructuras:
 
 Random Generator de Nuympy: Provee varias forams de generar datos con distribuciones específicas.  
     `rng = np.random.default_rng(seed)` : Devuelve el generador rng  
@@ -52,12 +56,12 @@ pd.read_csv(data,
            dtype='', # Se puede definir los tipos de datos directamente, ingresando como un diccionario con las colmnas como keys.
            skip_blank_lines=True # Eliminar las filas que no tienen datos (generalmente al inicio o al final)
 ```
-## Manipulación de datos
+## Manipulación de datos:
 
-### Máscaras
+### Máscaras:
 `df[df['columna'].isin([lista_de_valores])]` : Para extraer sólo las filas donde los valores de esa columna estén dentro de la lista.  
 
-### groupby
+### groupby:
 `df.groupby([columna])`: Agrupa todas las filas con el mismo valor. (símil a tablas dinámicas en excel)  
 `df.groupby().size()`: Devuelve una series con la cantidad de entradas de cada agrupación.    
 `df.groupby('columna1').describe().loc[indice,'columna2']` : Agrupa, muestra los datos descriptivos de una parte específica.  
@@ -65,14 +69,16 @@ pd.read_csv(data,
 `df.columns = df.columns.map('_'.join).strip('_')`: Para unir los nombres del multiIndex de columnas creado en un groupby.  
 *Alternativa:* `df.columns = ['_'.join(col).strip('_') for col in df.columns.values]`
 
-
+### Pivot
+`df.pivot_table(index=['features a agrupar'], aggfunc={'feature a agg':['mean', 'std'], 'feature2 a agg':['mean', 'std']})` : las func de aggregación son las columnas. Se pueden poner que features agregar como "values=", pero ahí quedan agrupadas por la función de agregación en vez del dato original
 
 
 `array.reshape(1,-1)`: Cambia la forma del array. El -1 sirve para completar lo que se necesite (de forma que mantenga la cantidad de datos constante)  
 `df.apply()`: sirve para modificar todos los valores en un DF. el "axis" es para definir si lo hace en cada columna o en cada fila.  
 `df['column].sort_values()`: si es una series no necesita "by=", si es un DF requiere que se seleccione la columna.  
-`df.rename(columns={'nombreviejo': 'nombrenuevo'})`: Cambiar los nombres de columna
+`df.rename(columns={'nombreviejo': 'nombrenuevo'})`: Cambiar/renombrar   los nombres de columna
 `df.rename_axis('nombre_columnas', axis='columns')`: renombrar los "ejes" de la tabla.   
+`serie.name = "nombre_nuevo"` : Cambia el nombre de la pd.Series
 `pd.Timedelta(days=, hours=, minutes=, seconds=)`: Crea datos del tipo Timedelta de lapsos de tiempo (si se pasan a np.int64 son nanosegundos). Se puede usar en un apply de una feature (separando correctamente las diferentes partes)
 
 
@@ -150,8 +156,7 @@ Chequeo de duplicados en index. (aplica para columnas que no sean índice)
 - df.sort_values(by=['columna'], ascending=False): Ordena de mayor a menor (crea nuevo df)
 - df['columna'].replace({valoranterior:valornuevo, valoranterior2:valornuevo2}): Sintaxis que sirve para modificar/reemplazar varios valores por otros en una columna de un df. Genera un nuevo df
 - pd.melt(data, id_vars= ['columna que se quiere mantener], value_vars=['columnas que se quieren ubicar una encima de la otra]): Converte todas las columnas a sólo dos: variable ( nombre de columna) y value ( valor ). Sirve para graficar más de dos columnas facilmente por ejemplo
-- df.quantile(0/1): devuelve el cuantil/percentil que se está pidiendo. Se pueden comparar y usar como filtros para eliminar extremos
-- df[(df['value'] > df['value'].quantile(0.025)) & (df['value'] < df['value'].quantile(0.975))] : Forma de eliminar el top y bottom 2.5% 
+
 - df['year'] = [d.year for d in df_box.date] : Otra alternativa para loopear por todo la columna de fecha del dataFrame y agrega una sólo con el año
 - df['month'] = [d.strftime('%b') for d in df_box.date]: Forma de crear columna con el mes, desde una columna con la fecha. el '%b' muestra el nombre del mes, en vez del número
 - np.where(condicion, valor si True, valor si False): Sirve para convertir texto de un dataset a valores binarios por ejemplo. Es el equivalente por ejemplo a extraer parte de un dataset cuando el texto == a algo, y coenvertir todos esos valores a 1, y el resto a 0
@@ -191,5 +196,5 @@ df = reduce_memory_usage(train)
 
 
 - df.info o df['columna'].isnull().value_counts(): Se puede obtener si existen valores nulos/vacíos en el df.
-- pivot_df = df.pivot(index='columna1', columns='columna2', values='columna3').fillna(0): Crea un df con los datos delas 3 columnas, marcando las relaciones. Sirve para el modelo de nearestNeighbor (requiere un array o un aray like). Se tiene que convertir a array, por ejemplo haciendo pivot_df.values (creo que no es completamente necesario)
+`pivot_df = df.pivot(index='columna1', columns='columna2', values='columna3').fillna(0)`: Crea un df con los datos de las 3 columnas, marcando las relaciones. Sirve para el modelo de **nearestNeighbor** (requiere un array o un aray like). Se tiene que convertir a array, por ejemplo haciendo pivot_df.values (creo que no es completamente necesario)
 

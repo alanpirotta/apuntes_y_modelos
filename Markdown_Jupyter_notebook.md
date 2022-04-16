@@ -48,6 +48,8 @@ encabezado1 | Encabezado 2
 ------------|-------------
 dato1       | dato2
 
+$\hspace{.5cm}$ `$\hspace{.5cm}$` Genera un espacio en blanco/tabulación. Sirve para sangría.  
+
 ### Generar un índice:
 
 Utilizar la etiqueta `<a id="nombreSeccion"></a>` Para identificar cada título de sección/subsección.  
