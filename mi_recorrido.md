@@ -183,3 +183,12 @@ Una clase más del curso de codoACodo (me faltan 5 todavía). Sigo sin aprender 
 Terminé el desafío de Pandas de pivot_table y groupby de DH. Fue una buena práctica, esto lo sabía pero me faltaba fluidez🙂  
 También leí la teoría para la clase siguiente de DataWrangling. Me surgió una duda que después la consultaré en clase.  
 *Falta* el ejercicio extra de joins del curso de DH 
+
+### Domingo 17/4/22
+1.5 horas
+
+*Día 15 de #66DaysOfData*  
+Seguí practicando inglés con duolingo y elsa speak, me divierten, pero no me terminan de servir para lo que busco. Voy a buscar alguna otra app para probar 
+Hice el examen de la clase de data wrangling, y empecé a investigar un poco de Docker e instalarlo en la Pc. 
+Docker es algo que me interesa desde hace un tiempo ver como funciona pero nunca le dediqué. Una conocida que trabaja en ciencia de datos me comentó que es re útil para esto, asíque voy a averiguar más en estos días.😁
+Tuve un problema con la creación de la cuenta. Me tiró error, y ahora no me deja acceder ni con el nombre de usuario ni con el mail. Mandé reporte a ver si se arregla. Espero mañana poder arreglarlo.
