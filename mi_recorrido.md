@@ -192,3 +192,11 @@ Seguí practicando inglés con duolingo y elsa speak, me divierten, pero no me t
 Hice el examen de la clase de data wrangling, y empecé a investigar un poco de Docker e instalarlo en la Pc. 
 Docker es algo que me interesa desde hace un tiempo ver como funciona pero nunca le dediqué. Una conocida que trabaja en ciencia de datos me comentó que es re útil para esto, asíque voy a averiguar más en estos días.😁
 Tuve un problema con la creación de la cuenta. Me tiró error, y ahora no me deja acceder ni con el nombre de usuario ni con el mail. Mandé reporte a ver si se arregla. Espero mañana poder arreglarlo.
+
+### Lunes 18/4/22
+3 horas  
+
+*Día 16 de #66DaysOfData*  
+Clase de DataWrangling de DH.  
+Se me había pasado completamente el desafío de la clase 9 de limpieza de datos y regex! La semana de esa clase fue la que estuve completamente agotado, pero nunca me había pasado algo como esto😕  
+Empecé a hacer el desafío, aprendí un poco más de Regex, principalmente sobre re.compile, re.match/re.search y matchObject.group()

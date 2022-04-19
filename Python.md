@@ -11,6 +11,12 @@ def get_encoding_type(csv_path):
     return result.get('encoding')
 ```
 
+### regex (regular expressions)
+import re
+
+https://docs.python.org/3/howto/regex.html
+
+
 
 - variable = [i**2 for i in range(10)]: ejemplo de forma de escribir un loop en una línea (list comprehension)
 
