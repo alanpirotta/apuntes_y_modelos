@@ -200,3 +200,16 @@ Tuve un problema con la creación de la cuenta. Me tiró error, y ahora no me de
 Clase de DataWrangling de DH.  
 Se me había pasado completamente el desafío de la clase 9 de limpieza de datos y regex! La semana de esa clase fue la que estuve completamente agotado, pero nunca me había pasado algo como esto😕  
 Empecé a hacer el desafío, aprendí un poco más de Regex, principalmente sobre re.compile, re.match/re.search y matchObject.group()
+
+### Martes 19/4/22 y miércoles 20/4/22
+Menos de una hora
+
+*Días 17 y 18 de #66DaysOfData*  
+Estuve bastante enfermo y pude estudiar muy poco. Hice la pregunta de Bnomial y seguí praticando inglés.
+
+### Jueves 21/4/22
+3 horas
+
+*Día 19 de #66DaysOfData*
+Clase de Bokeh y Plotly en Digital house. Plotly me resultó muy interesante e intuitiva de usar, cuando practique lo confirmaré. Esta clase me gustó, tuvimos tiempo después de hacer un HandsOn, aunque fue de todos juntos en vez de a gupos chiquitos.  
+El lunes vamos a trabajar en grupo, es toda una clase de EDA en equipo!! Estoy muy emocionado, aunque estoy nervioso por el equipo que me toque la verdad 😓(traumas de facultad).  
