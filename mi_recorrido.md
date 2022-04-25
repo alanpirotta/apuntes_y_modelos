@@ -213,3 +213,18 @@ Estuve bastante enfermo y pude estudiar muy poco. Hice la pregunta de Bnomial y 
 *Día 19 de #66DaysOfData*
 Clase de Bokeh y Plotly en Digital house. Plotly me resultó muy interesante e intuitiva de usar, cuando practique lo confirmaré. Esta clase me gustó, tuvimos tiempo después de hacer un HandsOn, aunque fue de todos juntos en vez de a gupos chiquitos.  
 El lunes vamos a trabajar en grupo, es toda una clase de EDA en equipo!! Estoy muy emocionado, aunque estoy nervioso por el equipo que me toque la verdad 😓(traumas de facultad).  
+
+### Sábado 23/4/22
+4.5 horas
+
+*Día 20 de #66DaysOfData*  
+El Viernes fue demasiado agotador y realmente no hice nada (seguí con inglés un poco, pero no lo cuento).  
+Hoy me levanté y me estaba costando horrores sentarme frente a la PC, asíque cambié la estrategia y me puse a ver las clases pendientes del curso de Codo a Codo de spreadsheets y SQL. No aprendí practicamente nada 😅 pero al menos me puse más al día, tengo que seguir con eso.  
+
+### Domingo 24/4/22
+3 horas
+
+*Día 21*  
+Seguí el curso de Digital House.  
+Hice un preanálisis rápido del dataset que vamos a utilizar en el tp de mañana.  
+Terminé el desafío de limpieza de datos y RegeX que se me había pasado de largo. Voy a hacer lo posible por esta semana ponerme más tiempo y completar los demás desafíos, pero estoy esperando una noticia que puede cambiar muchas cosas, y me tiene muy "on edge"🥶
