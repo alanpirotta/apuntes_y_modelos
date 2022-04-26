@@ -228,3 +228,10 @@ Hoy me levanté y me estaba costando horrores sentarme frente a la PC, asíque c
 Seguí el curso de Digital House.  
 Hice un preanálisis rápido del dataset que vamos a utilizar en el tp de mañana.  
 Terminé el desafío de limpieza de datos y RegeX que se me había pasado de largo. Voy a hacer lo posible por esta semana ponerme más tiempo y completar los demás desafíos, pero estoy esperando una noticia que puede cambiar muchas cosas, y me tiene muy "on edge"🥶
+
+### Lunes 25/4/22
+3.5 horas
+
+*Día 22*
+Clase del TP1 del curso. Estuvimos explorando el dataset de properati juntos, fue divertido y me re sirvió finalmente tener otros input y no sólo los míos de análisis😊  
+Tenemos que entregarlo antes del 11/5, asíque hay que ponerse a hacer bien el análisis, por ahora dividimos las features para mejorar los datos de cada una.
