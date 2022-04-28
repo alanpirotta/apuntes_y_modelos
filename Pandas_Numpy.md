@@ -12,6 +12,22 @@
 `df.memory_usage()`: Devuelve el uso de memoria de cada columna del DF en Bytes.  
 `np.finfo()`: Los límites de la máquina para cada floating point type.  
 `Series.dtype`  y `df.dtypes`: Muestra los tipos de datos de las tiras de datos  
+```python
+# Función para mostrar DF uno al lado del otro en el output
+from IPython.display import display, HTML
+
+def display_side_by_side(dfs:list, captions:list, tablespacing=5):
+    """Display tables side by side to save vertical space
+    Input:
+        dfs: list of pandas.DataFrame
+        captions: list of table captions
+    """
+    output = ""
+    for (caption, df) in zip(captions, dfs):
+        output += df.style.set_table_attributes("style='display:inline'").set_caption(caption)._repr_html_()
+        output += tablespacing * "\xa0"
+    display(HTML(output))
+```
 
 ## Slices de df, Series y Arrays:
 

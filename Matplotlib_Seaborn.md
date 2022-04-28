@@ -10,6 +10,17 @@ ej:
     g.add_legend()
 ```
 
+### Boxplot
+Utilidad principal, ver outliers, secundaria, ver distribución.  
+```python
+fig, axs = plt.subplots(2,1,figsize=(20,5))
+bp_ars = sns.boxplot(x='feature', data= df1, ax=axs[0])
+bp_usd = sns.boxplot(x='feature', data=df2, ax=axs[1])
+bp_ars.set_title('titulo1')
+bp_usd.set_title('titulo2')
+plt.show()
+```
+
 Matplotlib(plt): Sirve para definir las características del gráfico (no el contenico?) 
 - plt.figure(figsize=(ancho,alto)): Define el tamaño del gráfico
 - plt.title("Título del gráfico")
@@ -41,9 +52,9 @@ Matplotlib(plt): Sirve para definir las características del gráfico (no el con
 - sns.heatmap(data, annot=True, fmt='', vmin=, vmax=): el fmt es el formato de las anotaciones, puede ser por ejemplo '.1f' para mostrar sólo un punto decimal (un punto flotante). vmin y vmax es para dar el rango en el que estarán los colores (por ejemplo, de -1 a +1)
 - df.corr(): Genera un DF de correlación útil para realizar el heatmap por ejemplo.
 - Para enmascarar el triángulo superior derecho de un DF/heatmap: 
-    - mask = np.zeros_like(corr) : Genera un array con la misma forma que el df 
-    - mask[np.triu_indices_from(mask)] = True : Guarda sólo el triángulo superior derecho
-    - sns.heatmap(... , mask=mask)
+        - mask = np.zeros_like(corr) : Genera un array con la misma forma que el df 
+        - mask[np.triu_indices_from(mask)] = True : Guarda sólo el triángulo superior derecho
+        - sns.heatmap(... , mask=mask)
 - Alternativa: mask = np.triu(corr), es más simple. O mask = np.triu(np.ones_like(features_corr, dtype=bool), k=0) 
 - fig=nombrecatplot.fig: Para que acceda al Facetgrid de matplotlib el catplot. Deprecada, se usa figure ahora
 - nombrecatplot.set_ylabels('nombre'): Cambiar el nombre del eje en un gráfico catplot

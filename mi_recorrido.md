@@ -235,3 +235,19 @@ Terminé el desafío de limpieza de datos y RegeX que se me había pasado de lar
 *Día 22*
 Clase del TP1 del curso. Estuvimos explorando el dataset de properati juntos, fue divertido y me re sirvió finalmente tener otros input y no sólo los míos de análisis😊  
 Tenemos que entregarlo antes del 11/5, asíque hay que ponerse a hacer bien el análisis, por ahora dividimos las features para mejorar los datos de cada una.
+
+### Martes 26/4/22
+5 min
+
+*Día 23*  
+Día que me tomé planeadamente para pasar con mi esposa.  
+Sólo repaso de inglés y pregunta Binomial (interesante, tengo que buscar más sobre la curva ROC)  
+
+### Miércoles 27/4/22
+1.5 horas  
+
+*Día 24*  
+Arranqué tarde, cerca de las 12:00, pero tenía ganas de empezar con el análisis del TP1 del curso.  
+Comencé un análisis más profundo de las features de precios, para detectar los valores atípicos que me llamaran la atención, ordenar mejor esos datos, y ver si creo columnas útiles.  
+Practiqué varios temas de pandas y seaborn, y aprendí sobre el rich display para mostrar mejor (por ej con CSS) los output de las celdas en los notebooks (específicamente me fijé para mostrar un dataset al lado del otro)  
+Estoy esperando desde el viernes si quedo o no en una oferta que me tiene muy emocionado y bastante ansioso, si se da va a cambiar muchísimo mi situación y dinámica actual.
