@@ -21,7 +21,7 @@ En caso de que el repo local esté atrasado frente al online.
 ## Realizar una subida al repo online (commit)
 
 - git add .  : Agregar/stage todas las modificaciones
-- git commit -m ""  : Generar un commit
+- git commit -m "mensaje"  : Generar un commit
 - git log origin/main..HEAD : Muestra cuales son los commit hechos localmente por delante del repo en gihthub
 - git reset --soft HEAD~X : Resetea los últimos commit locales no pusheados (x es el número de últimos commits)
 

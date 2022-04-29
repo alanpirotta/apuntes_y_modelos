@@ -251,3 +251,9 @@ Arranqué tarde, cerca de las 12:00, pero tenía ganas de empezar con el anális
 Comencé un análisis más profundo de las features de precios, para detectar los valores atípicos que me llamaran la atención, ordenar mejor esos datos, y ver si creo columnas útiles.  
 Practiqué varios temas de pandas y seaborn, y aprendí sobre el rich display para mostrar mejor (por ej con CSS) los output de las celdas en los notebooks (específicamente me fijé para mostrar un dataset al lado del otro)  
 Estoy esperando desde el viernes si quedo o no en una oferta que me tiene muy emocionado y bastante ansioso, si se da va a cambiar muchísimo mi situación y dinámica actual.
+
+### Jueves 28/4/22
+3 horas
+
+*Día 25*
+Clase de estadística inferencial de DH. SEguimos un poco con el tp1 en grupo, pusimos en común la información y organizamos un poco como seguir adelante.
