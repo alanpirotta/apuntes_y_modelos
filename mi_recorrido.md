@@ -257,3 +257,11 @@ Estoy esperando desde el viernes si quedo o no en una oferta que me tiene muy em
 
 *Día 25*
 Clase de estadística inferencial de DH. SEguimos un poco con el tp1 en grupo, pusimos en común la información y organizamos un poco como seguir adelante.
+
+### Sábado 30/4/22
+4 horas
+
+*Día 26*
+Seguí con el EDA en el TP1. Me encontré con un problema de planteo de la situación, estoy haciendo un análisis muy individual de valores extraños, y dudo de si es necesario o algo que tengo tiempo, en vez de atacar problemas más grandes y depsués mejorar estos casos.  
+También me surgió duda con si planteamos bien el objetivo y camino a seguir, lo plantee al equipo. Necesito ver un poco más lo que estuvieron haciendo ellos, y capaz con eso me sirva.  
+Mi estado mental no es el mejor, porque estoy esperando una reunión donde me harán una oferta laboral, espero que se de bien, implica un paso gigante en mis objetivos😊
