@@ -271,3 +271,11 @@ Mi estado mental no es el mejor, porque estoy esperando una reunión donde me ha
 
 *Día 27*
 Reunión de análisis en grupo del dataset para el TP. Definimos varias cosas, y me siento mucho más orientado de como seguir y qué probar. Fue una buena reunión
+
+### Lunes 2/5/22
+3 horas
+
+*Día 28*
+Acepte la oferta de Mercado Libre para un nuevo trabajo! Va a ser un cambio muy grande, estoy muy entusiasmado y muy revolucionado.  
+Estas semanas serán complicadas porque tengo que dejar lo mejor posible las cosas en mi actual trabajo.  
+La clase de DH fue de estadística inferencial centrada en hipotesis nulas y alternativas. Entiendo el tema pero lo tengo oxidado, tnedría que revisarlo más.  
