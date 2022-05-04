@@ -279,3 +279,11 @@ Reunión de análisis en grupo del dataset para el TP. Definimos varias cosas, y
 Acepte la oferta de Mercado Libre para un nuevo trabajo! Va a ser un cambio muy grande, estoy muy entusiasmado y muy revolucionado.  
 Estas semanas serán complicadas porque tengo que dejar lo mejor posible las cosas en mi actual trabajo.  
 La clase de DH fue de estadística inferencial centrada en hipotesis nulas y alternativas. Entiendo el tema pero lo tengo oxidado, tnedría que revisarlo más.  
+
+### Martes 3/5/22
+2 horas
+
+*Día 29*  
+Seguí con el TP de EDA. Comparé los NaN de precio con superficie, y realicé el código genérico para considerar outliers, luego hay que perfeccionarlo para poder aplicarlo en todas las columnas y según los criterios de agrupación que decidamos.  
+Estos días estoy medio desconcentrado, me cuesta más todo. El cambio cercano de trabajo me emociona mucho pero quiero dejar lo mejor posible mi actual trabajo, y son muchas cosas que coordino y manejo yo solo.  
+Todavía no caí del todo en este cambio.  
