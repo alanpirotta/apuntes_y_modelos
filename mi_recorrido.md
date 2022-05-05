@@ -287,3 +287,9 @@ La clase de DH fue de estadística inferencial centrada en hipotesis nulas y alt
 Seguí con el TP de EDA. Comparé los NaN de precio con superficie, y realicé el código genérico para considerar outliers, luego hay que perfeccionarlo para poder aplicarlo en todas las columnas y según los criterios de agrupación que decidamos.  
 Estos días estoy medio desconcentrado, me cuesta más todo. El cambio cercano de trabajo me emociona mucho pero quiero dejar lo mejor posible mi actual trabajo, y son muchas cosas que coordino y manejo yo solo.  
 Todavía no caí del todo en este cambio.  
+
+## Miércoles 4/5/22
+30 min
+
+*Día 30*
+Me dieron ganas de leer un rato asíque seguí un poco con el libro de machine learning. Vi un poco de cross validation, pero hoy no me podía concentrar mucho. Tengo mucho en la cabeza (por suerte la mayoría bueno)
