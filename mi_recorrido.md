@@ -293,3 +293,8 @@ Todavía no caí del todo en este cambio.
 
 *Día 30*
 Me dieron ganas de leer un rato asíque seguí un poco con el libro de machine learning. Vi un poco de cross validation, pero hoy no me podía concentrar mucho. Tengo mucho en la cabeza (por suerte la mayoría bueno)
+
+## Lunes 9/5/22
+3 horas
+
+Estuve haciendo algunas cosas y hoy tuve la clase inicial de Machine Learning del curso, pero tengo la cabeza en dejar el trabajo actual lo más ordenadamente posible y la emoción del nuevo trabajo. Me está costando mucho concentrarme en el estudio y tengo poco tiempo encima, por lo que decidí tomarme estos días más o menos libres, cortar el reto acá, hacer un poco más de vida social y relajar cabeza para entrar lo más fresco posible a esta nueva oportunidad 🙂
