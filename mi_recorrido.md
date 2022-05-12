@@ -298,3 +298,10 @@ Me dieron ganas de leer un rato asíque seguí un poco con el libro de machine l
 3 horas
 
 Estuve haciendo algunas cosas y hoy tuve la clase inicial de Machine Learning del curso, pero tengo la cabeza en dejar el trabajo actual lo más ordenadamente posible y la emoción del nuevo trabajo. Me está costando mucho concentrarme en el estudio y tengo poco tiempo encima, por lo que decidí tomarme estos días más o menos libres, cortar el reto acá, hacer un poco más de vida social y relajar cabeza para entrar lo más fresco posible a esta nueva oportunidad 🙂
+
+## Miércoles 12/5/22
+5.5 horas, sólo 30min de recreo
+
+Mañana es la entrega del TP. Traté de ordenar la info del único otro notebook que mandaron con el mío, generé código para calcular outliers, agrupar por algunas columnas críticas y mejoré el código en general para eliminar alguno errores y código de prueba.  
+Le falta muchísimo para terminar algo consistente, mañana uno de los chicos va a ponerse a la mañana asíque terminará un poco más las cosas y preparará medio la presentación.  
+La verdad que me frustré mucho con este TP. Yo no tuve tanto tiempo como querría, pero recién el martes pude ver algo del código del resto, creo que nadie vio nada de lo que hice, una persona abandonó el curso, y otra no sabemos que pasó pero dejó de contestar. Saco como bueno que me sirvieron las reuniones para poder ver desde otro punto de vista las cosas y aprender a debatir sobre estos temas, pero siento que no pudimos trabajar realmente como equipo. Espero que mañana salga bien la presentación.
