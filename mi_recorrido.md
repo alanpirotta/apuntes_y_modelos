@@ -305,3 +305,8 @@ Estuve haciendo algunas cosas y hoy tuve la clase inicial de Machine Learning de
 Mañana es la entrega del TP. Traté de ordenar la info del único otro notebook que mandaron con el mío, generé código para calcular outliers, agrupar por algunas columnas críticas y mejoré el código en general para eliminar alguno errores y código de prueba.  
 Le falta muchísimo para terminar algo consistente, mañana uno de los chicos va a ponerse a la mañana asíque terminará un poco más las cosas y preparará medio la presentación.  
 La verdad que me frustré mucho con este TP. Yo no tuve tanto tiempo como querría, pero recién el martes pude ver algo del código del resto, creo que nadie vio nada de lo que hice, una persona abandonó el curso, y otra no sabemos que pasó pero dejó de contestar. Saco como bueno que me sirvieron las reuniones para poder ver desde otro punto de vista las cosas y aprender a debatir sobre estos temas, pero siento que no pudimos trabajar realmente como equipo. Espero que mañana salga bien la presentación.
+
+# Jueves 13/05/22
+3 horas
+
+Mucha charla durante el día para mejorar el TP, y la clase de presentación. Salió bastante bien, y creo que ahora que sabemos que las otras dos personas abandonaron el curso, pudimos lidiar mejor como equipo. En la clase sentí que pudimos intercambiar bien, y me gustó. Hay otro grupo de dos personas que nos dijeron de juntarse con nosotros, ojalá puedan porque me gustó su análisis también 🙂
