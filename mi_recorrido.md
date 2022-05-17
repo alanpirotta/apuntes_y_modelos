@@ -310,3 +310,8 @@ La verdad que me frustré mucho con este TP. Yo no tuve tanto tiempo como querr�
 3 horas
 
 Mucha charla durante el día para mejorar el TP, y la clase de presentación. Salió bastante bien, y creo que ahora que sabemos que las otras dos personas abandonaron el curso, pudimos lidiar mejor como equipo. En la clase sentí que pudimos intercambiar bien, y me gustó. Hay otro grupo de dos personas que nos dijeron de juntarse con nosotros, ojalá puedan porque me gustó su análisis también 🙂
+
+# Lunes 16/05/22
+2.5 horas
+
+Clase de DH sobre sklearn y explicación un poco más profunda de modelos de clasificación y clustering. Pude aprender algunos puntos importantes que me faltaban. También los profesores aceptaron unir los dos grupos, asíque en el siguiente trabajo práctico seremos 6, y los 6 queriendo hacer. Creo que esta vez funcionarpa bien el trabajo en equipo 🙂

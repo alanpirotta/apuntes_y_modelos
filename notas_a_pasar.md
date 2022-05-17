@@ -251,3 +251,6 @@ https://stackoverflow.com/questions/62658215/convergencewarning-lbfgs-failed-to-
 - Se puede cambiar el solver del lbfgs predeterminado
     Diferentes optimizadores para regresión logística:
     https://stackoverflow.com/questions/38640109/logistic-regression-python-solvers-definitions/52388406#52388406
+
+
+La convención con respecto a la elección de "positivo/negativo" es que el error de tipo 2/beta/Falso negativo es el peor caso. 
