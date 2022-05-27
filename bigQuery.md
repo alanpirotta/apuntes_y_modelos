@@ -148,3 +148,10 @@ def show_time_to_run(query):
     query_result = client.query(query, job_config=time_config).result()
     end = time()
     print('Time to run: {} seconds'.format(round(end-start, 3)))
+
+
+### Data Types
+
+Convertir un tipo de dato a otro al traer la info:  
+`SELECT CAST("valor" AS datatype)`
+ 

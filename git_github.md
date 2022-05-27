@@ -1,6 +1,8 @@
 ## Configuración de git
 
 - git config -l : Lista toda la config del git
+- git config --global user.email johndoe@example.com : Configura el mail de usuario
+- git config --global user.name "John Doe": Configura el nombre de usuario
 
 ## Configuración de repo localmente
 
