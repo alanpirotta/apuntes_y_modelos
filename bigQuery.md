@@ -152,6 +152,10 @@ def show_time_to_run(query):
 
 ### Data Types
 
-Convertir un tipo de dato a otro al traer la info:  
-`SELECT CAST("valor" AS datatype)`
+`SELECT CAST("valor" AS datatype)`  
+Para convertir un tipo de dato a otro al traer la info. Se puede usar SAFE_CAST para que convierta en NULL si diera error (convertir un texto a INT, por ej)  
+
+`SELECT FORMAT_DATE("%M/%D/%Y", DATE "2022-05-27")`  
+Convierte como muestra las fechas en el output
+
  
