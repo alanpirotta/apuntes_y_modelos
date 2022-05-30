@@ -1,4 +1,54 @@
-- Generar tablas y DataFrames desde bigData con SQL bigquery
+
+## Data Types
+
+`SELECT CAST("valor" AS datatype)`  
+Para convertir un tipo de dato a otro al traer la info. Se puede usar SAFE_CAST para que convierta en NULL si diera error (convertir un texto a INT, por ej)  
+
+`SELECT FORMAT_DATE("%M/%D/%Y", DATE "2022-05-27")`  
+Convierte como muestra las fechas en el output
+
+## Operaciones de String
+
+`concat(columna1, columna2)`: Concentate (une) dos columnas en una sola  
+`length(columna)` : Devuelve el largo del string  
+`lower/upper)columna)` : Cambia todo a minúsculas o mayúscules  
+`lpad/rpad(columna, size)`: Agrega caracteres para llegar a la cantidad de cartacteres pedido  
+`ltrim/rtrim(columna,value)`: Elimina espacios en blanco o el valor pasado en la función.  
+`replace(columna, stringABuscar, stringNuevo)`: Reemplaza el string buscado por el stirng nuevo  
+`reverse(columna)` : Invierte el string  
+`split(columna, delimiter)` : divide el string y devuelve una matriz  
+`translate(columna, from, to)` : Es muy similar a replace, pero reemplaza caracter a caracter, no necesariamente continuos.  
+`strpos(columna, substring)` : Devuelve la posición donde comienza el substring dentro del string. Empieza en 1  
+`substr(columna, start, length)`: Obtiene un substring, pasando la posición inicial (comienza en 1) y la cantidad
+`trim(columna)`: Remueve todos los espacios en blanco a derecha e izquierda
+
+## Expresiones condicionales:
+
+`IFNULL(columna, string)`: Si hay valor, devuelve el valor, sino el string  
+`COALESCE(columna1, columna2,...,columnaN, string)`: Revisa una por una las columnas, y devuelve el primr valor no nulo, o el string en caso de no encontrar
+```sql
+SELECT
+case when condicion1 then string1
+     when condicion2 then string2
+     ...
+     when condicionN then stringN
+ELSE stringElse end     
+```: Evalúa cada when hasta encontrar la que cumple. 
+`IF(condicion, valorSiverdades, valorSiFalso)`
+
+
+## GROUP BY Y ORDER BY
+
+`GROUP BY 1` : Depende el sql, pero normalmente significa que agrupa por la primer colmna del select. Funciona para ORDER BY también
+
+
+
+
+
+
+
+
+## Generar tablas y DataFrames desde bigData con SQL bigquery
 
 ```python
 from google.cloud import bigquery
@@ -150,12 +200,6 @@ def show_time_to_run(query):
     print('Time to run: {} seconds'.format(round(end-start, 3)))
 
 
-### Data Types
 
-`SELECT CAST("valor" AS datatype)`  
-Para convertir un tipo de dato a otro al traer la info. Se puede usar SAFE_CAST para que convierta en NULL si diera error (convertir un texto a INT, por ej)  
-
-`SELECT FORMAT_DATE("%M/%D/%Y", DATE "2022-05-27")`  
-Convierte como muestra las fechas en el output
 
  
