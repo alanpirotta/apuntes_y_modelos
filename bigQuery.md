@@ -9,6 +9,10 @@ Convierte como muestra las fechas en el output
 
 `SELECT MIN(TIMESTAMP_DIFF(*segunda columna*, *Primer columna*, SECOND)) as time_passed`  : Devuelve los segundos pasados entre las fechas de las dos columnas.
 
+`CURRENT_DATE()` : Para comparar contra la fecha de hoy, se le puede restar o sumar días.
+
+`columna BETWEEN DATE '2022-05-29' AND DATE '2022-06-01'`: Filtra entre determinadas fechas
+
 ## Operaciones de String
 
 `concat(columna1, columna2)`: Concentate (une) dos columnas en una sola  
@@ -34,7 +38,8 @@ case when condicion1 then string1
      when condicion2 then string2
      ...
      when condicionN then stringN
-ELSE stringElse end     
+ELSE stringElse 
+END    
 ```
 La query anterior evalúa cada when hasta encontrar la que cumple.  
 `IF(condicion, valorSiverdades, valorSiFalso)`
@@ -123,7 +128,7 @@ from google.cloud import bigquery
             ORDER BY *columna* : Para ordenar los resultados según alguna columna de forma ascendiente, si se agrega DESC, será de forma descendiente  
             """
     - query = """
-            SELECT EXTRACT(DAY from *columna con Fechas*) AS Day   : Genera una columna con el día sacado de la fecha con tipo DATE o DATEIME (formato aaaa-mm-dd). (Doc: https://cloud.google.com/bigquery/docs/reference/legacy-sql#datetimefunctions)  
+            SELECT EXTRACT(DAY from *columna con Fechas*) AS Day   : Genera una columna con el día sacado de la fecha con tipo DATE o DATETIME (formato aaaa-mm-dd). (Doc: https://cloud.google.com/bigquery/docs/reference/legacy-sql#datetimefunctions)  
             FROM *`dirección tabla`*  
             """
 
