@@ -1,3 +1,14 @@
+## conectar en google collab
+
+```python
+import pandasfrom google.colab import auth
+auth.authenticate_user()
+from gspread_dataframe import set_with_dataframe
+
+import gspread
+from google.auth import default
+creds, _ = default()
+```
 
 ## Data Types y conversiones
 
