@@ -28,6 +28,8 @@ def display_side_by_side(dfs:list, captions:list, tablespacing=5):
         output += tablespacing * "\xa0"
     display(HTML(output))
 ```
+`df.select_dtypes(exclude="number").head()` : Sirve para mostrar solo las features no numéricas.
+`df.describe(exclude="number", datetime_is_numeric=True)`: Sirve para ver la descripción de las columnas no numéricas.
 
 ## Slices de df, Series y Arrays:
 
@@ -84,6 +86,23 @@ pd.read_csv(data,
 *Alternativa:* `df.groupby('columna1').agg(['count', 'sum', 'mean', 'median']).loc[índice,'columna2']`: Otra forma de obtener lo mismo, pero con el método agg donde puedo seleccionar qué quiero poner, y poner otras cosas (como la suma)  
 `df.columns = df.columns.map('_'.join).strip('_')`: Para unir los nombres del multiIndex de columnas creado en un groupby.  
 *Alternativa:* `df.columns = ['_'.join(col).strip('_') for col in df.columns.values]`
+
+### Datetime, manipulación de fechas
+
+`df.index = pd.DatetimeIndex(df['date'])`: Convierte la columna dada en el index con formato Datetime
+`df.resample('M').size()` : Sirve para agrupar el dataset según el string que se pase ('M' es mes, '3M' es tres meses, 'Y' es año, etc). Se pueden usar funciones de agregación, por ejemplo sum() en vez de size
+`df.resample('D').size().rolling(window=365).sum()`: Hace una ventana de datos acumulada, de 365 días.
+
+```python
+# Gráfico de barras según día de semana
+days = ['Lunes','Martes','Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']
+df.groupby([df.index.dayofweek]).size().plot(kind='barh')
+plt.ylabel('Días de la semana')
+plt.yticks(np.arange(7), days)
+plt.xlabel('titulo_de_x')
+plt.title('titulo_de_y')
+plt.show()
+```
 
 ### Pivot
 `df.pivot_table(index=['features a agrupar'], aggfunc={'feature a agg':['mean', 'std'], 'feature2 a agg':['mean', 'std']})` : las func de aggregación son las columnas. Se pueden poner que features agregar como "values=", pero ahí quedan agrupadas por la función de agregación en vez del dato original
