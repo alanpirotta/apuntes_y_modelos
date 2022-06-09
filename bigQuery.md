@@ -24,6 +24,12 @@ Convierte como muestra las fechas en el output
 
 `columna BETWEEN DATE '2022-05-29' AND DATE '2022-06-01'`: Filtra entre determinadas fechas
 
+```sql
+-- Esto permite evitar el problema de que no parsee correctamente porque no reconoce la columna como datetime
+SUM(DATETIME_DIFF(safe.PARSE_DATETIME("%Y-%m-%d %H:%M:%S", finished_at), safe.PARSE_DATETIME("%Y-%m-%d %H:%M:%S", created_at), MINUTE)) as Running_time_minutes
+```
+
+
 ## Operaciones de String
 
 `concat(columna1, columna2)`: Concentate (une) dos columnas en una sola  

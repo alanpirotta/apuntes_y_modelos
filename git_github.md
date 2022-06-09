@@ -19,6 +19,8 @@ Si la carpeta es un repositorio de git, tendrá una carpeta oculta llamada .git
 En caso de que el repo local esté atrasado frente al online. 
 - git checkout codCommit : Trae la versión que se le pida del repo. Si se pone master/main trae la actual
 - git pull origin master: Trae los cambios del repo en github que no estén en local
+- git fecth : modifica los metadatos, y trae también las ramas nuevas
+
 
 ## Realizar una subida al repo online (commit)
 
@@ -32,6 +34,7 @@ En caso de que el repo local esté atrasado frente al online.
 ## Misceláneos
 
 - git status : Da el estado del repo local
+- git log: Te muestra el log del local  (tiene varias extras como --oneline o --graph)
 
 ## .gitignore
 
