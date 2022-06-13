@@ -197,11 +197,15 @@ Expresiones con WITH... AS que contienen una tabla temporal que se retorna dentr
                         trip_start_timestamp < '2017-07-01' AND
                         trip_seconds > 0 AND
                         trip_miles > 0  
-            )  
+            ),
+            CTE2 AS
+            (
+                ...
+            )
             SELECT hour_of_day,
                     COUNT(1) AS num_trips,
                     3600 * SUM(trip_miles) / SUM(trip_seconds) AS avg_mph  
-            FROM CTE  
+            FROM CTE, CTE2
             GROUP BY hour_of_day  
             ORDER BY hour_of_day  
             """
