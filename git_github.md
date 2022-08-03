@@ -21,6 +21,17 @@ En caso de que el repo local esté atrasado frente al online.
 - git pull origin master: Trae los cambios del repo en github que no estén en local
 - git fecth : modifica los metadatos, y trae también las ramas nuevas
 
+## Branches
+
+git branch: Muestra todas las ramas, marcando la activa
+git branch --show-current : Muestra sólo la rama activa
+git branch feature/(nombreX) : Crea una rama
+git checkout -b feature/(nombreX) : Crea y se ubica en la rama "feature/(nombreX)"
+git checkout develop : Vuelve a la rama develop
+git log --oneline --decorate --graph --all : Muestra el historial de todas las commit
+git push --set-upstream origin feature/(nombreX) : Pushea a la rama esa
+
+
 
 ## Realizar una subida al repo online (commit)
 
