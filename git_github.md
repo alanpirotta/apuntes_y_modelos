@@ -30,6 +30,7 @@ git checkout -b feature/(nombreX) : Crea y se ubica en la rama "feature/(nombreX
 git checkout develop : Vuelve a la rama develop
 git log --oneline --decorate --graph --all : Muestra el historial de todas las commit
 git push --set-upstream origin feature/(nombreX) : Pushea a la rama esa
+git branch --delete <branchname> : Eliminar la branch
 
 
 
